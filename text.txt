@@ -1,0 +1,44 @@
+CCSIT Co-op Registration Form
+
+This form is required to be completed by all students planning to take Co-op Training in the Summer for 2019
+
+Student Information
+
+Full Name*
+Gender*: Male / Female
+Year of Study*: 1 — 4 (slider)
+Level of Study*: 6
+GPA (Range)*: 3.0 – 4.0
+Email Address*
+
+Pre-requisite Information
+
+Courses Completed:
+
+Please select all courses you have completed
+
+Database Concepts and Design
+Data Structure
+Professional Responsbility
+Technical Reports
+Web-based Systems
+Human-Computer Interaction
+Software Engineering
+System Analysis and Design
+
+Training Organization Information
+
+Company Name*
+Training Start Date* (dd/mm/yyyy)
+Training End Date* (dd/mm/yyyy)
+Working Hours at the Company*: --:-- -- – --:-- --
+
+Attachments
+
+Transcript* [Choose File] No file chosen
+Student Advisor Letter* [Choose File] No file chosen
+
+Comments
+Enter any comments here for the Co-op Committee
+
+[Submit Application] [Clear]
