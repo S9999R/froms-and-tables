@@ -7,8 +7,8 @@
   <body>
     <h1>CCSIT Co-op Registration Form</h1>
     <p>
-      This form is required to be completed by all students planning to take
-      Co-op Training in the Summer for 2019
+      <em>This form is required to be completed by all students planning to take
+      Co-op Training in the Summer for 2019</em>
     </p>
     <form action="">
       <fieldset>
@@ -37,12 +37,116 @@
               <select>
 
                 <option value="level1">1.0-2.0</option>
-                <option value=""></option>
+                <option value="level2">2.0-3.0</option>
+                <option value="level3">3.0-4.0</option>
+
+
+
+
               </select>
             </td>
           </tr>
+          <tr>
+            <td><label for="">Level of study*</label></td>
+            <td><input type="number" min="1" max="8"></td>
+
+          </tr>
+          <tr>
+            <td>
+              <label for="">Email Address*</label>
+            </td>
+            <td>
+              <input type="email">
+            </td>
+          </tr>
+        </table>
+
+
+
+      </fieldset>
+      <fieldset>
+        <legend>Pre-requisite Information</legend>
+        <table>
+          <tr>
+            <td><p>courses completed:</p></td>
+            
+          </tr>
+          <tr>
+             <td><strong><em>Please select all courses you have completed</em></strong></td>
+
+          </tr>
+          <tr>
+            <td><input type="checkbox"value="DCD"> database concepts and design</td>
+            <td><input type="checkbox"value="DS">Data Structure</td>
+            <td> <input type="checkbox"value="PR"> Professional Responsbility</td>
+            <td><input type="checkbox" value="TR"> Technical Reports</td>
+            
+          </tr>
+          <br>
+          <tr>
+            <td><input type="checkbox" value="WBS">Web-based Systems</td>
+            <td><input type="checkbox" value="HCI"> Human-Computer Interaction</td>
+            <td><input type="checkbox" value="SWE"> software Engineering</td>
+            <td><input type="checkbox" value="SAD"> System Analysis and Design</td>
+          </tr>
+        
         </table>
       </fieldset>
+
+      <fieldset>
+        <legend>Training Organization Information</legend>
+        <table  align="left">
+          <tr>
+            <td><label for="">company name*</label></td>
+            <td><input type="text" name="cn"></td>
+          </tr>
+          <tr>
+            <td><label for="">Training start date*</label></td>
+            <td><input type="date"></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Training end date*</label>
+            </td>
+            <td><input type="date"></td>
+          </tr>
+          <tr>
+            <td><label for="">working hours at the company</label></td>
+            <td><input type="time"></td> 
+            <td><span>-</span></td>
+
+            <td><input type="time"></td>
+            
+          </tr>
+
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>Attachments</legend>
+        <table>
+          <tr>
+            <td><label for="">Transcript*</label></td>
+            <td><input type="file"></td>
+          </tr>
+          <tr>
+            <td><label for="">Student advisor letter*</label></td>
+            <td><input type="file"></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>Comments</legend>
+        <table>
+          <tr>
+            <td> <td><textarea name="comments" rows="8" cols="70" placeholder="enter any comments here for the Co-op committee" id=""></textarea></td></td>
+
+          </tr>
+        </table>
+      </fieldset>
+      <button>submit Application</button> <button type="reset">clear</button>
+      
     </form>
   </body>
 </html>

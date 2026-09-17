@@ -29,7 +29,7 @@ System Analysis and Design
 Training Organization Information
 
 Company Name*
-Training Start Date* (dd/mm/yyyy)
+eraining Start Date* (dd/mm/yyyy)
 Training End Date* (dd/mm/yyyy)
 Working Hours at the Company*: --:-- -- – --:-- --
 
